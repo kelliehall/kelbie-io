@@ -1,0 +1,27 @@
+@import '../../../../variables.scss';
+
+.header-bar {
+    display: flex;
+    padding: 16px 24px;
+    h1 {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-right: 48px;
+    }
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            word-break: normal;
+            flex-direction: row;
+            gap: 32px;
+            li {
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}
