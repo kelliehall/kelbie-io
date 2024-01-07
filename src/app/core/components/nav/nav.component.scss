@@ -3,10 +3,10 @@
 .header-bar {
     display: flex;
     padding: 16px 24px;
+    justify-content: space-between;
     h1 {
         font-size: 18px;
-        margin-bottom: 0;
-        margin-right: 48px;
+        margin: 0;
     }
     nav {
         ul {

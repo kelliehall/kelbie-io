@@ -1,0 +1,12 @@
+@import '../../../../variables.scss';
+
+.junk-drawer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+
+    a {
+        color: $text;
+        padding: 0 10px;
+    }
+}

@@ -6,4 +6,26 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: $text;
+    margin: 0;
+    height: 100lvh;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        flex: 0 0 50px;
+    }
+
+    .content {
+        padding: 12px;
+        flex: 1 1 calc(100lvh - 125px);
+    }
+
+    .footer {
+        flex: 0 0 50px;
+    }
 }
