@@ -22,7 +22,6 @@
     "bootstrap-icons": "^1.11.3",
     "marked": "^4.3.0",
     "ngx-markdown": "^16.0.0",
-    "office-ui-fabric-core": "^11.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
