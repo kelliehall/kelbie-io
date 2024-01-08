@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
     styleUrls: ['./links.component.scss']
 })
 export class UsefulLinksComponent {
-    constructor() { }
 }

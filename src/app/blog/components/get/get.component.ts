@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
     styleUrls: ['./get.component.scss']
 })
 export class BlogGetComponent {
-    constructor() { }
 }
