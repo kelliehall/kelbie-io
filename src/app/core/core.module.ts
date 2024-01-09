@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavComponent } from './components/nav/nav.component';
 import { TelemetryService } from './services/telemetry.service';
+import { TrackClicksDirective } from './directives/track-clicks.directive';
 
 @NgModule({
   imports: [
@@ -11,11 +12,13 @@ import { TelemetryService } from './services/telemetry.service';
   ],
   declarations: [
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    TrackClicksDirective
   ],
   exports: [
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    TrackClicksDirective
   ],
   providers: [
     TelemetryService
