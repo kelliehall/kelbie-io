@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TelemetryService } from '../../services/telemetry.service';
 
 @Component({
     selector: 'kel-nav',
@@ -6,4 +7,5 @@ import { Component } from '@angular/core';
     styleUrls: ['./nav.component.scss']
 })
 export class NavComponent {
+    constructor(private telemetryService: TelemetryService) { }
 }
