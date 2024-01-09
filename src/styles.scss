@@ -7,7 +7,7 @@ body {
     line-height: 24px;
     color: $text;
     margin: 0;
-    height: 100lvh;
+    height: 100dvh;
     padding: 0;
     overflow: hidden;
 }
@@ -22,10 +22,10 @@ body {
 
     .content {
         padding: 12px;
-        flex: 1 1 calc(100lvh - 125px);
+        flex: 1 1 calc(100dvh - 125px);
     }
 
     .footer {
-        flex: 0 0 50px;
+        flex-grow: 0;
     }
 }
